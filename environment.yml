@@ -1,0 +1,41 @@
+name: ml_env
+channels:
+  - conda-forge
+  - apple
+  - pytorch
+  - defaults
+  - huggingface
+dependencies:
+  - python=3.9
+  - pip
+
+  - ipykernel
+  - ipython
+  - jupyter
+  - jupyterlab
+  - pytest
+  - pycodestyle
+
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tensorflow-deps
+  - tensorflow-datasets
+  - tensorflow-probability
+  - tensorboard
+  - keras
+  - scikit-learn
+  - transformers
+
+  - scipy
+  - optuna
+  - joblib
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - pip:
+      - tensorflow-macos
+      - tensorflow-metal
+      - datasets
