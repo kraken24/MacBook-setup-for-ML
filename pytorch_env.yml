@@ -1,0 +1,37 @@
+name: torch_m1
+channels:
+  - conda-forge
+  - apple
+  - pytorch
+  - defaults
+  - huggingface
+dependencies:
+  - python=3.9
+  - pip
+
+  - ipykernel
+  - ipython
+  - jupyter
+  - jupyterlab
+  - pytest
+  - pycodestyle
+
+  - scipy
+  - optuna
+  - joblib
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tensorboard
+  - scikit-learn
+  - transformers
+  - wandb
+
+  - pip:
+      - datasets
